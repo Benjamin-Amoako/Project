@@ -1,0 +1,99 @@
+body{
+    background: #000;
+    color: #fff;
+    font-family: 'poppins' sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    margin-right: 20%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 180px;
+    border-radius: 50px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.nav-list a :hover {
+    color: grey;
+}
+#header{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/cdbg.png);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    background-color: #ff004f;
+    display: inline-flex;
+    font-size: 40px;
+    margin-left: 20px;
+}
+h4{
+    font-size: 24px;
+    margin-left: 15px;
+}
+#intro{
+    margin-left: 20px;
+}
+#solutions{
+    margin-top: 50px;
+    text-align: justify;
+}
+#solutions span{
+    color: #ff004f;
+}
+#solutions b{
+    color: #ff0000;
+}
+.bck{
+    text-decoration: none;
+}
+/* --------css for small screen---------- */
+nav .fas{
+    display: none;
+}
+@media only screen and (max-width: 650px){
+h1{
+    font-size: 34px;
+    text-align: center;
+}
+h2{
+    font-size: 24px;
+}
